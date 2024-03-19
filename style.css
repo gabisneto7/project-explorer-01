@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+html{
+    font-family: Inter;
+}
+
+body{
+    text-align: center;
+}
+
+.hero{
+    width: 592px;
+    margin: 0 auto 72px;
+}
+.hero > img{
+    margin-bottom: 72px;
+}
+h1{
+    font-size: 49px;
+    font-family: Inter; 
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+p, #footer{
+    font-family: Inter;
+    font-size: 14px;
+    color: #7d7987;
+    line-height: 28px;
+}
+
+.yellow{
+    color: #FF9900;
+    font-weight: bolder;
+}
+
+.strong{
+    font-weight: bold;
+}
+
+#footer > a{
+    text-decoration: underline;
+    color: #FF9900;
+    padding: 8px;
+}
+
+#footer a + a{
+    margin-left: 28px;
+}
+
+#line{
+    width: 568px;
+    margin: 0 auto 8px;
+    height: 0;
+    border: 1px #eceff2 solid;
+}
+
+#balls{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
